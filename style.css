@@ -1,0 +1,341 @@
+/* =============Header Secction============= */
+.ooo{
+    background-color: white;
+    padding: 10px 0px;
+    width: 100%;
+}
+.h{
+    margin-right: 5px;
+}
+.header{
+    background-color: white;
+    padding: 10px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.logo{
+    font-size: 25px;
+    /* line-height: 55px; */
+    color: #2f2f2f;
+}
+.menu ul{
+
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    /* line-height: 58px; */
+    font-size: 20px;
+    transition: .5s;
+}
+.menu ul li:hover >a{
+    color: #ddd;
+}
+.icon{
+    /* line-height: 45px; */
+    cursor: pointer;
+    margin-top: -10px;
+}
+.l{
+    color: black;
+    transition: .5s;
+}
+.kk{
+    font-size: 23px;
+    transition: .5s;
+}
+.kk:hover{
+    color: #ddd;
+}
+.l:hover{
+    color: #ddd;
+}
+/* ============Drop Down============ */
+.menu ul li ul{
+    position: absolute;
+    top: 100%;
+    left: -250px;
+    background-color: white;
+    width: 1200px;
+    height: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    transform: scaleY(0);
+    transform-origin: top center;
+    text-align: center;
+}
+.menu img{
+    width: 200px;
+    transition: .5s;
+    padding-top: 20px;
+}
+.menu img:hover{
+    transform:translateY(-15px);
+}
+.menu ul li ul li{
+    display: inline-block;
+}
+.menu ul li ul li a{
+    display: inline-block;
+}
+.menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+/* ================Shu Section=========== */
+.shu{
+    background-color: #f2f2f2;
+}
+.type{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.s1{
+    display: block;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    color: #2f2f2f;
+}
+.s3{
+    color: #2f2f2f;
+}
+.juta img{
+    max-width: 100%;
+}
+.juta{
+    position: relative;
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 7px 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:hover{
+    color: white;
+}
+.okk{
+    background-color: red;
+    color: white;
+    padding: 1px 8px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    opacity: 0;
+    visibility: hidden;
+}
+.juta:hover .okk{
+    visibility: visible;
+    opacity: 1;
+}
+/* ===============Shu2 Section============== */
+.lol{
+    margin-top: 10px;
+    max-width: 100%;
+}
+.type2{
+    text-align: right;
+    margin-right: 63px;
+}
+/* ===================Baner Section============= */
+.baner img{
+    max-width: 100%;
+}
+.lk img{
+    padding: 50px 0px;
+}
+.jk{
+    top: 10px !important;
+    left: 10px !important;
+}
+.mm{
+    top: 60px !important;
+    left: 5px !important;
+}
+.nn{
+    left: 0px !important;
+}
+
+
+
+
+.site-footer
+{
+  background-color: #f2f2f2;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color: black;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:blue;
+  transform: scale(1.2);
+}
+.social-icons a.twitter:hover
+{
+  background-color:red;
+  transform: scale(1.2);
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6;
+  transform: scale(1.2);
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89;
+  transform: scale(1.2);
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
